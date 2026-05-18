@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula array comdom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>alunos</h1>
+
+        <section class="card">
+            <h2>cadastrar aluno</h2>
+            <input type="text" id="nome" placeholder="nome do aluno">
+            <input type="number" id="idade" placeholder="idade">
+            <input type="text" id="curso" placeholder="curso">
+
+            <button id="btnAdicionarFinal">adicionar no final</button>
+            <button id="btnAdicionarInicio">adicionar no inicio</button>
+
+        </section>
+        <section class="card">
+            <h2>acoes</h2>
+
+            <button id="btnRemoverPrimeiro">remove primeiro</button>
+            <button id="btnRemoverUltimo">remove ultimo</button>
+            <button id="btnMostrarParte">mostrar 2 primeiros</button>
+        </section>
+        <section class="card">
+            <h2>buscar ou remover aluno</h2>
+            <input type="text" id="busca" placeholder="digite o nome">
+
+            <button id="btnBuscar">buscar aluno</button>
+            <button id="btnRemoverAluno">remover pelo nome</button>
+
+            <p id="mensagem"></p>
+        </section>
+        <section class="card">
+            <h2>resultado</h2>
+            <p>total de alunos <span id="total">0</span></p>
+            <ul id="listaAlunos"></ul>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
